@@ -1,0 +1,13 @@
+.box {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.header {
+    align-content: center;
+    justify-items: center;
+    color: #0000ff;
+}
