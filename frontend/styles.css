@@ -1,13 +1,37 @@
-.box {
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    align-items: start;
-    justify-content: space-between;
+body {
+    background-image: url(https://wallpapercave.com/wp/wp10284803.png) ;
 }
 
+.container {
+    padding: 70px 0;
+}
 
-.header {
-    align-content: center;
-    justify-items: center;
-    color: #0000ff;
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 150px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
 }
