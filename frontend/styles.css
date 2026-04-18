@@ -1,22 +1,35 @@
-body {
-    background-image: url(https://wallpapercave.com/wp/wp10284803.png) ;
+.bg {
+    background-image: url(https://wallpapercave.com/wp/wp10284803.png);
+    filter: blur(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: -1;
 }
 
-.container {
-    padding: 70px 0;
+
+
+.row {
+    padding-top: 150px;
 }
 
 header, .navbar {
-    background-color: #353D41;
+    background-color: #353d4165;
 }
 
 #nav-container {
+    padding: 70px 0;
     padding-top: 0;
     padding-bottom: 0;
 }
 
 #logo {
-    width: 150px;
+    width: 125px;
 }
 
 .navbar-brand {
@@ -35,3 +48,18 @@ header, .navbar {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
 }
+
+/* cards   */
+
+.title{
+    font-family: Sekuya;
+    text-align: center;
+    color: crimson;
+    margin-bottom: 60px;
+}
+
+.card-body {
+    text-align: center;
+    background: transparent;
+}
+
