@@ -51,6 +51,11 @@ header, .navbar {
 
 /* cards   */
 
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
 .title{
     font-family: Sekuya;
     text-align: center;
