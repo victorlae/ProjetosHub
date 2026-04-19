@@ -1,5 +1,5 @@
 .bg {
-    background-image: url(https://wallpapercave.com/wp/wp10284803.png);
+    background-image: url(https://i.redd.it/made-some-hades-ii-wallpapers-v0-fxjya1ar7trf1.png?width=3840&format=png&auto=webp&s=c8b83e6270d2d5175ff506111efd95e3155f8276);
     filter: blur(2px);
     position: absolute;
     top: 0;
@@ -51,6 +51,9 @@ header, .navbar {
 
 /* cards   */
 
+h3 {
+    margin-top: 24px;
+}
 .col-12 {
     display: flex;
     justify-content: center;
