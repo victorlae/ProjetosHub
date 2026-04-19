@@ -51,9 +51,16 @@ header, .navbar {
 
 /* cards   */
 
-.col-md-4 {
+.col-12 {
     display: flex;
     justify-content: center;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .title{
