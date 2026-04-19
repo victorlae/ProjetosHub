@@ -18,12 +18,12 @@
     right: 20px;
     z-index: 1000;
     padding: 10px 20px;
-    background-color: #212529; /* Cor escura do Bootstrap */
+    background-color: #212529; 
     color: #fff;
-    border: 2px solid #5d3fd3; /* Um roxo estilo Deltarune/Hades */
+    border: 2px solid #5d3fd3; 
     border-radius: 50px;
     cursor: pointer;
-    font-family: 'Sekuya', sans-serif; /* Usando a fonte que você carregou */
+    font-family: 'Sekuya', sans-serif;
     transition: all 0.3s ease;
     box-shadow: 0 0 15px rgba(93, 63, 211, 0.4);
 }
@@ -35,7 +35,7 @@
 }
 
 .btn-music.playing {
-    border-color: #ff4500; /* Muda a cor quando estiver tocando */
+    border-color: #ff4500; 
 }
 
 .row {
@@ -78,13 +78,15 @@ header, .navbar {
 h3 {
     margin-top: 24px;
 }
-.col-12 {
+.col-6 {
     display: flex;
     justify-content: center;
+    align-items: center; 
+    padding: 15px;
 }
 
 .title{
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.315);
     font-family: Sekuya;
     text-align: center;
     color: crimson;
