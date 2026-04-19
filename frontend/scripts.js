@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.addEventListener('click', function() {
             if (music.paused) {
                 music.play();
-                btn.innerHTML = '⏸️ Pause';
+                btn.innerHTML = '⏸️ Pausa n bro';
             } else {
                 music.pause();
-                btn.innerHTML = '▶️ Play Music';
+                btn.innerHTML = '🎵 Toca dnv';
             }
         });
     }
