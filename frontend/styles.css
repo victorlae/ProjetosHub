@@ -1,6 +1,6 @@
 .bg {
-    background-image: url(https://i.redd.it/made-some-hades-ii-wallpapers-v0-fxjya1ar7trf1.png?width=3840&format=png&auto=webp&s=c8b83e6270d2d5175ff506111efd95e3155f8276);
-    filter: blur(2px);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/830ff794-6544-4d45-8f6e-61945eb7967d/dktrq1o-b8157e9e-8f5c-4325-be3a-ecc7182ec67e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84MzBmZjc5NC02NTQ0LTRkNDUtOGY2ZS02MTk0NWViNzk2N2QvZGt0cnExby1iODE1N2U5ZS04ZjVjLTQzMjUtYmUzYS1lY2M3MTgyZWM2N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pbam3I-nQhHqM6sqD05fPkNZCC42Q8RKFr4R3S8q5mY);
+    filter: blur(1px);
     position: absolute;
     top: 0;
     left: 0;
@@ -12,7 +12,31 @@
     z-index: -1;
 }
 
+.btn-music {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #212529; /* Cor escura do Bootstrap */
+    color: #fff;
+    border: 2px solid #5d3fd3; /* Um roxo estilo Deltarune/Hades */
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Sekuya', sans-serif; /* Usando a fonte que você carregou */
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(93, 63, 211, 0.4);
+}
 
+.btn-music:hover {
+    background-color: #5d3fd3;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(93, 63, 211, 0.7);
+}
+
+.btn-music.playing {
+    border-color: #ff4500; /* Muda a cor quando estiver tocando */
+}
 
 .row {
     padding-top: 150px;
@@ -60,6 +84,7 @@ h3 {
 }
 
 .title{
+    background-color: rgba(0, 0, 0, 0.795);
     font-family: Sekuya;
     text-align: center;
     color: crimson;
